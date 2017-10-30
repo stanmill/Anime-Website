@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anime-Spot</title>
+        <link rel="stylesheet" href="site.css" type="text/css">
+        <script type="text/javascript" src="site.js"></script>
+
+    </head>
+    <body id="background">
+        <div id="navigation"> 
+            <a href="site.html">Home</a>
+            <a href="anime.html">Anime List</a>
+            <a href="submit.html">Submit</a>
+        </div> 
+        <table>
+	       <tr><td>Tell us what you think:</td></tr>
+	       <tr>
+		      <td colspan="3">
+			<textarea id="inputTextToSave" style="width:512px;height:256px"></textarea>
+		  </td>
+	       </tr>
+	   <tr>
+		<td id="enter">Enter Your Name:</td>
+		<td><input id="inputFileNameToSaveAs"></td>
+		<td><button onclick="saveTextAsFile()">Submmit</button></td>
+           <td><button onclick="erase()" value="Clear">Clear</button> </td>
+	   </tr>
+</table>
+     
+    </body>
+</html>
